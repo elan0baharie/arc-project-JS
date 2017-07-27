@@ -14,6 +14,8 @@ import { ArcListComponent } from './arc-list/arc-list.component';
 import { ArcDetailComponent } from './arc-detail/arc-detail.component';
 import { StoryComponent } from './story/story.component';
 import { NewArcComponent } from './new-arc/new-arc.component';
+import { EditArcComponent } from './edit-arc/edit-arc.component';
+import { UserOutlineComponent } from './user-outline/user-outline.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -30,7 +32,9 @@ export const firebaseConfig = {
     ArcListComponent,
     ArcDetailComponent,
     StoryComponent,
-    NewArcComponent
+    NewArcComponent,
+    EditArcComponent,
+    UserOutlineComponent
   ],
   imports: [
     BrowserModule,

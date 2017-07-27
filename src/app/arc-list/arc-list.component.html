@@ -1,7 +1,10 @@
 <h2>Marketplace</h2>
 
-<div *ngFor="let userStory of userStories | async" class="panel panel-default">
+<div *ngFor="let userStory of userStories | async"  class="panel panel-default">
   <div class="panel-body">
     <h4>"{{userStory.title}}"</h4>
+    <button type="button" (click)="findUserStory(userStory)" class="btn btn-info">Edit Arc</button>
+    <br>
+    <button type="button" (click)="findUserOutline(userStory)" class="btn btn-success">View Outline</button>
   </div>
 </div>

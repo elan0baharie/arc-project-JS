@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      {{userStoryDisplay.title}} by {{userStoryDisplay.author}}
+    </div>
+    <div class="panel-body">
+      <div class="form-group">
+        <label>Change Title:</label>
+        <input [(ngModel)]="userStoryDisplay.title">
+      </div>
+      <div class="form-group">
+        <label>Change Author:</label>
+        <input [(ngModel)]="userStoryDisplay.author">
+      </div>
+      <h4>Role: {{userStoryDisplay.arc[0].role}}</h4>
+
+      <p><em>Primary Example:</em>
+        <input [(ngModel)]="userStoryDisplay.arc[0].primary"></p>
+      <p><em>Secondary Example:</em> <input [(ngModel)]="userStoryDisplay.arc[0].secondary"></p>
+      <button (click)="updateStory(userStoryDisplay)">Update Story</button>
+    </div>
+  </div>
+</div>

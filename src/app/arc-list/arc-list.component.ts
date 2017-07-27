@@ -20,6 +20,13 @@ export class ArcListComponent implements OnInit {
     this.userStories = this.userStoryService.getUserStories();
   }
 
-
+  findUserStory(userStory) {
+    console.log(userStory);
+    this.router.navigate(['edit-story', userStory.$key]);
+  }
+  findUserOutline(userOutline){
+    console.log(userOutline);
+    this.router.navigate(['outline', userOutline.$key]);
+  }
 
 }
