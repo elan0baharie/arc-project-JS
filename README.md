@@ -1,28 +1,38 @@
-# ArcStoryboard
+# _ARC_
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.3.
+#### _Narrative building app, 07.27.17_
 
-## Development server
+#### By _**E. Baharie**_
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+_I created this tool to help an author build their narrative outline. The app is designed to take the classic 8 point story arc and give guidance to the author with examples and simple structure. The minimum viable product has been designed to allow the user to create their plot outline with some examples of a few great stories._
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+## Setup/Installation Requirements
 
-## Build
+* _Install NodeJS, Bower, and create a Firebase account with associated keys._
+* _Clone repository from github
+: https://github.com/elan0baharie/arc-project-JS_
+* _Use CLI of choice to cd into directory and npm install, then bower install._
+* _Create a api-key.ts file in your app directory with the parameters to export._
+* _Import the master-seed.json into Firebase to create the info the app needs._
+* _ng serve and run on localhost:4200_
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
+## Known Bugs
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+_Console gives prop not found errors signing into obj specific pages but still functions. Probably an issue with data type compatibility in Typescript_
 
-## Running end-to-end tests
+## Support and contact details
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+_E. Baharie email: 0elan1@gmail.com github: https://github.com/elan0baharie/arc-project-JS_
 
-## Further help
+## Technologies Used
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+_Angular2, Firebase, NodeJS_
+
+### License
+
+*MIT License*
+
+Copyright (c) 2016 **_E. Baharie_**
