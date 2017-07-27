@@ -2,6 +2,8 @@
   width: 65%;
   float: left;
   border: 1px solid blue;
+  font-family: 'Play', monospace;
+  text-align: center;
 }
 
 .right-highlight {

@@ -1,3 +1,25 @@
+em {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 1.3em;
+}
+
 .role-box {
   box-shadow: 2px 2px 2px 2px #8998af;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.role-box-content {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: 'Quicksand', cursive;
+  color: #7889a3;
+}
+
+.user-text {
+  letter-spacing: 2px;
+  font-family: 'Wire One', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
