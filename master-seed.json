@@ -1,0 +1,235 @@
+{ "tools":
+  {
+    "default-stories": [
+      {
+        "title": "Romeo & Juliet",
+        "author": "Shakespeare",
+        "arc": [
+          {
+            "role": "stasis",
+            "primary" : "Romeo show's his lust towards Rosaline, while Mercutio mocks Romeo for his pining.",
+            "secondary": "Normal conversations go on in Verona."
+          },
+          {
+            "role": "trigger",
+            "primary" : "Romeo meets Juliet at the Capulet's ball & forgets Rosaline.",
+            "secondary": "Paramores meet under moonlight."
+          },
+          {
+            "role": "quest",
+            "primary" : "Romeo needs to marry Juliet in secret fearing a Capulet would never be allowed to marry a Montague.",
+            "secondary": ""
+          },
+          {
+            "role": "surprise",
+            "primary" : "The friar offers to help.",
+            "secondary": "The nurse offers to help."
+          },
+          {
+            "role": "choice",
+            "primary" : "Tybalt kills Mercutio.",
+            "secondary": "Romeo chooses his own ego over his love for Juliet and seeks vengenace against Tybalt."
+          },
+          {
+            "role": "climax",
+            "primary" : "Romeo duels Tybalt, killing him & is subsequently banished.",
+            "secondary": "Juliet's marriage to Paris looms."
+          },
+          {
+            "role": "reversal",
+            "primary" : "Juliet is thought dead.",
+            "secondary": "Romeo shows up at the Capulet vault."
+          },
+          {
+            "role": "resolution",
+            "primary" : "Romeo finds an apparently dead Juliet and kills himself with poison, followed soon after by Juliet.",
+            "secondary": "Both houses make peace."
+          }
+        ]
+      },
+      {
+        "title": "Star Wars Episode IV: A New Hope",
+        "author": "George Lucas",
+        "arc": [
+          {
+            "role": "stasis",
+            "primary" : "Luke goes about his futuristic/pastoral life hoping for more.",
+            "secondary": "The Empire's influence is everywhere, oppressesive to all."
+          },
+          {
+            "role": "trigger",
+            "primary" : "Luke meets R2D2, who has an urgent message.",
+            "secondary": ""
+          },
+          {
+            "role": "quest",
+            "primary" : "",
+            "secondary": ""
+          },
+          {
+            "role": "surprise",
+            "primary" : "",
+            "secondary": ""
+          },
+          {
+            "role": "choice",
+            "primary" : "",
+            "secondary": ""
+          },
+          {
+            "role": "climax",
+            "primary" : "",
+            "secondary": ""
+          },
+          {
+            "role": "reversal",
+            "primary" : "",
+            "secondary": ""
+          },
+          {
+            "role": "resolution",
+            "primary" : "",
+            "secondary": ""
+          }
+        ]
+      },
+      {
+        "title": "Macbeth",
+        "author": "Shakespeare",
+        "arc": [
+          {
+            "role": "stasis",
+            "primary" : "Establishes a mystically infused scene.",
+            "secondary": "Macbeth obtains glory and power upon the battlefield."
+          },
+          {
+            "role": "trigger",
+            "primary" : "Macbeth becomes thane.",
+            "secondary": ""
+          },
+          {
+            "role": "quest",
+            "primary" : "",
+            "secondary": ""
+          },
+          {
+            "role": "surprise",
+            "primary" : "",
+            "secondary": ""
+          },
+          {
+            "role": "choice",
+            "primary" : "",
+            "secondary": ""
+          },
+          {
+            "role": "climax",
+            "primary" : "",
+            "secondary": ""
+          },
+          {
+            "role": "reversal",
+            "primary" : "",
+            "secondary": ""
+          },
+          {
+            "role": "resolution",
+            "primary" : "",
+            "secondary": ""
+          }
+        ]
+      },
+      {
+        "title": "Jaws",
+        "author": "Peter Benchley",
+        "arc": [
+          {
+            "role": "stasis",
+            "primary-ex" : "Establishes a mystically infused scene.",
+            "secondary-ex": "Macbeth obtains glory and power upon the battlefield."
+          },
+          {
+            "role": "trigger",
+            "primary-ex" : "Macbeth becomes thane.",
+            "secondary-ex": ""
+          },
+          {
+            "role": "quest",
+            "primary-ex" : "",
+            "secondary-ex": ""
+          },
+          {
+            "role": "surprise",
+            "primary-ex" : "",
+            "secondary-ex": ""
+          },
+          {
+            "role": "choice",
+            "primary-ex" : "",
+            "secondary-ex": ""
+          },
+          {
+            "role": "climax",
+            "primary-ex" : "",
+            "secondary-ex": ""
+          },
+          {
+            "role": "reversal",
+            "primary-ex" : "",
+            "secondary-ex": ""
+          },
+          {
+            "role": "resolution",
+            "primary-ex" : "",
+            "secondary-ex": ""
+          }
+        ]
+      }
+    ],
+    "point-infos": [
+      {
+        "role": "Stasis",
+        "relativePosition": 0,
+        "logic": "Establish normality. Create the baseline of everyday reality for the protagonists and their world. A danger of a longer stasis section is that it bores the reader who consequently quickly gives up on the story."
+      },
+      {
+        "role": "Trigger",
+        "relativePosition": 1,
+        "logic": "Create a stimulating event that breaks stasis and animates the characters in the story into the main action. Triggers can be major events such as killings or explosions, or may seem almost insignificant, such as something mentioned in a conversation. Triggers can also be positive or negative, notice or not noticed, sudden or gradual, short or long, etc."
+      },
+      {
+        "role": "Quest/ Rising Action",
+        "relativePosition": 2,
+        "logic": "Develop the quest, which is the purpose given to the protagonist for the story as a result of the trigger. This will take up much of the novel and include the points below. A stated or unstated purpose of the quest may be to return the protagonist to the original stasis (while perhaps an antagonist opposes this)."
+      },
+      {
+        "role": "Surprise",
+        "relativePosition": 3,
+        "logic": "Introduce surprises that sustain interest and intrigue in the story, and give opportunity for character development. To be a surprise, an event must be unexpected, at least in part. To work within the story, it should be plausible and make sense to the reader, at least in retrospect. A poor surprise makes them feel disappointed and disillusioned."
+      },
+      {
+        "role": "Choice",
+        "relativePosition": 4,
+        "logic": "At times there will be difficult decisions where the hero might turn back or aside. Critical decisions are significant and essential, for example to continue with the quest, to pause to help others, to fight evil, etc. Simple examples can be cited in the morality plays popular circa the Middle ages. Such decisions should be consistent with the character, although they can also be transformational, changing the person (such as when a coward decides to act bravely). Showing the struggle to decide and the exercise of free will can be important."
+      },
+      {
+        "role": "Climax",
+        "relativePosition": 5,
+        "logic": "The quest builds through surprises and critical choices until it reaches a climax, a point where tensions must be resolved. There may be a number of minor and major climaxes through the story, leading to the grand climax near the end. While minor climaxes resolve minor tensions and larger tensions are resolved at major climaxes, there is still an underlying building tension that can only be resolved by the grand climax where the whole quest is finally resolved. It is through this sequence of climaxes that the story arc is built and the reader bound into the journey of the hero and other protagonists."
+      },
+      {
+        "role": "Reversal",
+        "relativePosition": 6,
+        "logic": "In the reversal, the hero integrates all of the learning, becoming a true hero, usually without losing their original charm and personality. Other characters may also change, particularly when they have journeyed and developed together. Reversals are a the result of the journey and are, as such, inevitable. You do not battle monsters and stay the same person, yet that person is still within you. They should make sense and make the reader nod in agreement of the just transformations that they are."
+      },
+      {
+        "role": "Resolution",
+        "relativePosition": 7,
+        "logic": "In the final resolution, a new stasis is found. This is also inevitable as all tensions are resolved. This new stasis is seldom the same as the original one as characters have learned and grown. It may also serve as a platform for another adventure, perhaps where side characters take on a bigger role or where the hero develops more subtly into a broader, more rounded character. The next story may also be hinted at with a new trigger, such as a discovery that the antagonist not having been fully vanquished or a new trouble is brewing."
+      }
+    ]
+  },
+  "user-files":{
+    "user-1": []
+  }
+}

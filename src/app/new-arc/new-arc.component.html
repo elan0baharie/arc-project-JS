@@ -1,0 +1,11 @@
+<div class="form-group">
+  <label>New Title:</label>
+  <br>
+  <input  #newTitle>
+</div>
+<div class="form-group">
+  <label>Author:</label>
+  <br>
+  <input  #author>
+</div>
+<button class="btn btn-success" (click)="submitForm(newTitle.value, author.value); newTitle.value=''; author.value=''">Create New Arc</button>

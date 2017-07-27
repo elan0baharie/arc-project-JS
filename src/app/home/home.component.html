@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="well col-md-12">
+    <h3>Welcome to my narrative building app.</h3>
+    <p>I have found that the power of a new story or an old one well told can not be underestimated. Putting a new spin on all of our childhood memories is the mainstay of Hollywood now. Too often in the entertainment products we consume the alure is all sizzle and minimal substance. I felt like half the time whatever I was reading/ playing/ watching had only the briefest attention paid to the story. This is especially symptomatic of the gaming industry. I understand that the man hours put into the project are focused on the very important goal of a solid minimum viable product and added user functionality, however too often the inner story of why you picked up the game/movie is only addressed in perfunctory fashion. </p>
+    <p>With that being said I created this tool to help an author build their narrative outline. The app is designed to take the classic 8 point story arc and give guidance to the author with examples and simple structure.</p>
+  </div>
+  <div class="example-panel col-md-12">
+    <div *ngFor="let defaultStory of defaultStories | async" (click)="goToStory(defaultStory)" class="black-box panel panel-default">
+      <div class="panel-heading">
+        {{defaultStory.title}}
+      </div>
+      <div class="panel-body">
+        {{defaultStory.author}}
+      </div>
+
+    </div>
+  </div>
+</div>

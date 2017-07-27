@@ -1,0 +1,19 @@
+.black-box {
+  margin: 6px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: gray;
+  width: 23%;
+  min-height: 200px;
+  float: left;
+  box-shadow: 3px 3px 3px 5px #98ACB3;
+}
+
+.example-panel {
+  align-items: center;
+}
+
+
+.clr {
+  clear: both;
+}
