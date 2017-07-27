@@ -13,7 +13,7 @@ import { DefaultStoriesService } from '../default-stories.service';
 })
 export class StoryComponent implements OnInit {
   storyKey: string;
-  storyToDisplay;
+  storyToDisplay: FirebaseObjectObservable<any>;
 
   constructor(private route: ActivatedRoute, private location: Location, private defaultStoryService: DefaultStoriesService){ }
 

@@ -5,14 +5,20 @@ import { AngularFireDatabase, FirebaseListObservable, FirebaseObjectObservable  
 @Injectable()
 export class UserStoryService {
   userStories: FirebaseListObservable<any[]>;
+  userArc: FirebaseListObservable<any[]>;
   userStoryKey: string;
 
   constructor(private database: AngularFireDatabase) {
     this.userStories =  database.list('/user-files/user-1');
+    
   }
 
   getUserStories(){
     return this.userStories;
+  }
+
+  getUserArc(){
+    return this.userArc;
   }
 
   getUserStory(userStoryKey: string){
