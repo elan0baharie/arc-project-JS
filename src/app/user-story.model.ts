@@ -41,8 +41,10 @@ export class UserStory {
     },
     {
       "role" : "Resolution",
-      "primary"  : "",
-      "secondary" : ""
+      "primary"  : "...",
+      "secondary" : "..."
     },
-  ]){}
+  ]){
+
+  }
 }

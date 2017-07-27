@@ -19,6 +19,11 @@ export class ArcListComponent implements OnInit {
   ngOnInit() {
     this.userStories = this.userStoryService.getUserStories();
   }
+  deleteUserStory(userStory){
+    if(confirm("Are you sure you want to delete this user story?")){
+      this.userStoryService.deleteStory(userStory);
+    }
+  }
 
   findUserStory(userStory) {
     console.log(userStory);

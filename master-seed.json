@@ -104,38 +104,38 @@
           },
           {
             "role": "trigger",
-            "primary" : "Macbeth becomes thane.",
+            "primary" : "Macbeth becomes thane of Cawdor.",
             "secondary": ""
           },
           {
             "role": "quest",
-            "primary" : "",
-            "secondary": ""
+            "primary" : "Macbeth kills King Duncan",
+            "secondary": "Lady Macbeth helps her husband in the savage murder."
           },
           {
             "role": "surprise",
-            "primary" : "",
+            "primary" : "Nature's kingdom begins to show signs of change to the disorder in the kingdom of men.",
             "secondary": ""
           },
           {
             "role": "choice",
-            "primary" : "",
+            "primary" : "Macbeth decides to do whatever it takes to hold on to power including the murder of the slightest threat to his power.",
             "secondary": ""
           },
           {
             "role": "climax",
-            "primary" : "",
+            "primary" : "Macbeth kills Banquo, Macduff's family, and attempts to kill Macduff.",
             "secondary": ""
           },
           {
             "role": "reversal",
-            "primary" : "",
-            "secondary": ""
+            "primary" : "Society begins to turn against Macbeth.",
+            "secondary": "Macbeth's wife begins to suffer the depredations of madness."
           },
           {
             "role": "resolution",
-            "primary" : "",
-            "secondary": ""
+            "primary" : "Macbeth discovers the oddity of Macduff's birth and is slain by the fated noble.",
+            "secondary": "Malcolm becomes king and history takes its prescribed course."
           }
         ]
       },

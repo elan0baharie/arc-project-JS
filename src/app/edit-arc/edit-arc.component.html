@@ -12,11 +12,71 @@
         <label>Change Author:</label>
         <input [(ngModel)]="userStoryDisplay.author">
       </div>
-      <h4>Role: {{userStoryDisplay.arc[0].role}}</h4>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <h4>Role: {{userStoryDisplay.arc[0].role}}</h4>
 
-      <p><em>Primary Example:</em>
-        <input [(ngModel)]="userStoryDisplay.arc[0].primary"></p>
-      <p><em>Secondary Example:</em> <input [(ngModel)]="userStoryDisplay.arc[0].secondary"></p>
+            <p><em>Primary Example:</em>
+              <input [(ngModel)]="userStoryDisplay.arc[0].primary"></p>
+            <p><em>Secondary Example:</em> <input [(ngModel)]="userStoryDisplay.arc[0].secondary"></p>
+          </div>
+          <div class="form-group">
+            <h4>Role: {{userStoryDisplay.arc[2].role}}</h4>
+
+            <p><em>Primary Example:</em>
+              <input [(ngModel)]="userStoryDisplay.arc[2].primary"></p>
+            <p><em>Secondary Example:</em> <input [(ngModel)]="userStoryDisplay.arc[2].secondary"></p>
+          </div>
+          <div class="form-group">
+            <h4>Role: {{userStoryDisplay.arc[4].role}}</h4>
+
+            <p><em>Primary Example:</em>
+              <input [(ngModel)]="userStoryDisplay.arc[4].primary"></p>
+            <p><em>Secondary Example:</em> <input [(ngModel)]="userStoryDisplay.arc[4].secondary"></p>
+          </div>
+          <div class="form-group">
+            <h4>Role: {{userStoryDisplay.arc[6].role}}</h4>
+
+            <p><em>Primary Example:</em>
+              <input [(ngModel)]="userStoryDisplay.arc[6].primary"></p>
+            <p><em>Secondary Example:</em> <input [(ngModel)]="userStoryDisplay.arc[6].secondary"></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <h4>Role: {{userStoryDisplay.arc[1].role}}</h4>
+
+            <p><em>Primary Example:</em>
+              <input [(ngModel)]="userStoryDisplay.arc[1].primary"></p>
+            <p><em>Secondary Example:</em> <input [(ngModel)]="userStoryDisplay.arc[1].secondary"></p>
+          </div>
+          <div class="form-group">
+            <h4>Role: {{userStoryDisplay.arc[3].role}}</h4>
+
+            <p><em>Primary Example:</em>
+              <input [(ngModel)]="userStoryDisplay.arc[3].primary"></p>
+            <p><em>Secondary Example:</em> <input [(ngModel)]="userStoryDisplay.arc[3].secondary"></p>
+          </div>
+          <div class="form-group">
+            <h4>Role: {{userStoryDisplay.arc[5].role}}</h4>
+
+            <p><em>Primary Example:</em>
+              <input [(ngModel)]="userStoryDisplay.arc[5].primary"></p>
+            <p><em>Secondary Example:</em> <input [(ngModel)]="userStoryDisplay.arc[5].secondary"></p>
+          </div>
+          <div class="form-group">
+            <h4>Role: {{userStoryDisplay.arc[7].role}}</h4>
+
+            <p><em>Primary Example:</em>
+              <input [(ngModel)]="userStoryDisplay.arc[7].primary"></p>
+            <p><em>Secondary Example:</em> <input [(ngModel)]="userStoryDisplay.arc[7].secondary"></p>
+          </div>
+        </div>
+      </div>
+
+
+
       <button (click)="updateStory(userStoryDisplay)">Update Story</button>
     </div>
   </div>
